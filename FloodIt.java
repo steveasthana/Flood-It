@@ -217,10 +217,10 @@ class FloodItWorld extends World {
   // returns the message to be displayed when the game is over
   String gameOverMessage() {
     if (this.sameColors()) {
-      return "You Win! poggers!";
+      return "You Win!";
     }
     else {
-      return "You Lose! sadge";
+      return "You Lose! Try again!";
     }
   }
 
